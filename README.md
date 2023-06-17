@@ -15,4 +15,4 @@ Successivamente svilupperemo un'API e implementeremo una funzione si limite max 
 
 ### 3° step
 Visualizzare una tabella che mostri:
- 1) 
+ 1) Numero di punto nella serie 
