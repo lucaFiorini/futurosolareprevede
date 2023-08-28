@@ -2,41 +2,29 @@
     <head>
 
         <script>
-            var currentPosition = null
+            // Check if geolocation is supported by the browser
+            if ("geolocation" in navigator) {
+                // Prompt user for permission to access their location
+                navigator.geolocation.watchPosition(
+                // Success callback function
+                function(position) {
+                    // Get the user's latitude and longitude coordinates
+                    const lat = position.coords.latitude;
+                    const lng = position.coords.longitude;
             
-            /*Per interrompere il monitoraggio della posizione, basterà utilizzare il metodo clearWatch().
-
-            navigator.geolocation.clearWatch(id);*/
-
-            function posizione(){
-            
-                /*const successCallback = (position) => {
-                console.log(position);
-                currentPosition = position.coords
-                console.log(currentPosition)
-                };
-                
-                const errorCallback = (error) => {
-                    Alert(error);
-                };*/
-                
-                //navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
-                //console.log(currentPosition);
-            
-                const id = navigator.geolocation.watchPosition(successCallback, errorCallback);
-
-                const options = {
-                    enableHighAccuracy: true,
-                    timeout: 10000,
-                };
-                    
-                navigator.geolocation.getCurrentPosition(
-                    successCallback,
-                    errorCallback,
-                    options
+                    // Update the map with the user's new location
+                    console.log(`Latitude: ${lat}, longitude: ${lng}`);
+                },
+                // Error callback function
+                function(error) {
+                    // Handle errors, e.g. user denied location sharing permissions
+                    console.error("Error getting user location:", error);
+                }
                 );
+            } else {
+                // Geolocation is not supported by the browser
+                console.error("Geolocation is not supported by this browser.");
             }
-            setInterval(posizione, 5*1000);
         </script>
     </head>
     <body>  
