@@ -1,5 +1,5 @@
 <?php
-
+die(); // avoids unvolontary execution
 include "Utility/database_connection.php";
 
 //var_dump($conn);
