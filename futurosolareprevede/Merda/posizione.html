@@ -1,0 +1,52 @@
+<html>
+    <head>
+
+        <script>
+            var currentPosition = null
+            
+            /*Per interrompere il monitoraggio della posizione, basterà utilizzare il metodo clearWatch().
+
+            navigator.geolocation.clearWatch(id);*/
+
+            function posizione(){
+
+                
+
+                /*const successCallback = (position) => {
+                console.log(position);
+                currentPosition = position.coords
+                console.log(currentPosition)
+                };
+                
+                const errorCallback = (error) => {
+                    Alert(error);
+                };*/
+                
+                //navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+                //console.log(currentPosition);
+            
+                const id = navigator.geolocation.watchPosition(successCallback, errorCallback);
+
+                const options = {
+                    enableHighAccuracy: true,
+                    timeout: 10000,
+                };
+                    
+                navigator.geolocation.getCurrentPosition(
+                    successCallback,
+                    errorCallback,
+                    options
+                );
+            }
+            setInterval(posizione, 5*1000);
+        </script>
+    </head>
+    <body>  
+        <div>
+            
+
+        </div>
+
+    </body>
+
+</html>
