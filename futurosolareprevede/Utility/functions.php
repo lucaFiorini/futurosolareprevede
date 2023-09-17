@@ -1,4 +1,10 @@
 <?php 
+function getSqlConnection(){
+  $conn = mysqli_connect('localhost', 'futurosolareprevede', '', 'my_futurosolareprevede');	
+  if (!$conn) die("Connessione fallita: " . mysqli_connect_error());
+  else return $conn;
+}
+
 class COORD{
   public float $lat;
   public float $lon;
@@ -29,17 +35,6 @@ class COORD{
 
 }
 
-//$A and $B are COORDINATE OBJECTS (float attributes lat,lon)
-/* EXAMPLE CALL
-$A['lon'] = 130.86899597672;
-$A['lat'] = -12.42540233038;
-
-$B['lon'] = 130.834324;
-$B['lat'] = -12.459402;
-
-getRoute($B,$A)
-*/
-
 function getRoute(COORD $A,COORD $B){
 
   $requestRoute = 'http://router.project-osrm.org/route/v1/driving/%s;%s?overview=false';
@@ -60,8 +55,14 @@ function getRoute(COORD $A,COORD $B){
 /*
 * @return COORD[] 
 */
-function loadPoints() : array {
+
+function loadWaypoints() : array {
   $out = [];
+  $conn = getSqlConnection();
+  $res = $conn->query("SELECT * FROM points");
+  while($row = $res->fetch_row()){
+    $out[] = $row;
+  }
   return $out; 
 }
 
