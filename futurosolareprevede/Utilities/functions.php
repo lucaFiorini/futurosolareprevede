@@ -1,6 +1,6 @@
 <?php 
-function getSqlConnection(){
-  $conn = mysqli_connect('localhost', 'futurosolareprevede', '', 'my_futurosolareprevede');	
+function getDbConnection(){
+  $conn = mysqli_connect("localhost","root","","futurosolareprevede");	
   if (!$conn) die("Connessione fallita: " . mysqli_connect_error());
   else return $conn;
 }
@@ -55,13 +55,12 @@ function getRoute(COORD $A,COORD $B){
 /*
 * @return COORD[] 
 */
-
-function loadWaypoints() : array {
+function loadPoints() : array {
   $out = [];
-  $conn = getSqlConnection();
-  $res = $conn->query("SELECT * FROM points");
+  $conn = getDbConnection();
+  $res = $conn->query("SELECT * FROM points ORDER BY point_ID");
   while($row = $res->fetch_row()){
-    $out[] = $row;
+    $out[$row["point_ID"]] = $row;
   }
   return $out; 
 }

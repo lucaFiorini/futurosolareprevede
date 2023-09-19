@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="scripts/main.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
     <body>
-        
+        <header>
+            
+        </header>
+        <div class="container-xl">
+            <table class="table table-striped">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">ETA</th>
+                    <th scope="col">Predicted weather</th>
+                    <th scope="col">Estimated sun exposure</th>
+                    <th scope="col">Distance</th>
+                </tr>
+                <tr class="visually-hidden" id="row_model">
+                    <th scope="ID">#</th>
+                    <td id="ETA">00:00</td>
+                    <td id="weather">[weather]</td>
+                    <td id="estimated-sun-exposure">[estimated-sun-exposure%]</td>
+                    <td id="distance">[distance in km]</td>
+                    <td id="nootes">[notes]</td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
