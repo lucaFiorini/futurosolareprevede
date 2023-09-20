@@ -36,23 +36,6 @@ class COORD{
 
 }
 
-function getRoute(COORD $A,COORD $B){
-
-  $requestRoute = 'http://router.project-osrm.org/route/v1/driving/%s;%s?overview=false';
-
-  $req = sprintf(
-    $requestRoute,
-    strval($A::$lon).','.strval($A::$lat),
-    strval($B::$lon).','.strval($B::$lat),
-  );
-
-  $ch = curl_init($req);
-  header("content-type: application/json");
-  curl_setopt($ch, CURLOPT_RETURNTRANSFER,true);
-  $res = curl_exec($ch);
-  return json_decode($res);
-}
-
 /*
 * @return COORD[] 
 */
@@ -68,5 +51,25 @@ function loadPoints() : array {
   return $out; 
 }
 
+function getRoute(COORD $first, COORD $second,COORD ...$more){
 
+  $waypoints = [$second,...$more];
+  $concatenated_waypoints = strval($first->lon).','.strval($first->lat);
+  
+  foreach($waypoints as $waypoint){
+    $concatenated_waypoints .= ';'.strval($waypoint->lon).','.strval($waypoint->lat);
+  }
+
+  $requestRoute = 'http://router.project-osrm.org/route/v1/driving/%s?overview=false';
+  $req = sprintf(
+      $requestRoute,
+      $concatenated_waypoints
+  );
+
+  $res = file_get_contents($req);
+  if($res === false){
+    //TODO: error handling, no connection available probs
+  }
+  return json_decode($res);
+}
 ?>
