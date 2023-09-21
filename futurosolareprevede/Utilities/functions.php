@@ -68,8 +68,12 @@ function getRoute(COORD $first, COORD $second,COORD ...$more){
 
   $res = file_get_contents($req);
   if($res === false){
-    //TODO: error handling, no connection available probs
+    return false;
   }
   return json_decode($res);
+}
+
+function getForecastOnRoute(COORD $first, COORD $second,COORD ...$more){
+  //TODO: 1)get suncalc data 2)sort out weather API
 }
 ?>
