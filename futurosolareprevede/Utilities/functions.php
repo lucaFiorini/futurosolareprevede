@@ -1,10 +1,19 @@
 <?php 
-function getDbConnection(){
-  $conn = mysqli_connect("localhost","root","","futurosolareprevede");	
-  $conn->options(MYSQLI_OPT_INT_AND_FLOAT_NATIVE, TRUE);
-  if (!$conn) die("Connessione fallita: " . mysqli_connect_error());
-  else return $conn;
+function getDbConnection() : mysqli{
+  static $conn = null;
+  if($conn === null){
+    $conn = mysqli_connect("localhost","root","","futurosolareprevede");
+    $conn->options(MYSQLI_OPT_INT_AND_FLOAT_NATIVE, TRUE);
+    if (!$conn) die("Connessione fallita: " . mysqli_connect_error());
+  }
+  return $conn;
 }
+
+function isConnected(){
+  $connected = fopen("http://www.google.com:80/","r");
+  if($connected) return true;
+  else return false;
+} 
 
 class COORD{
   public float $lat;
@@ -36,44 +45,69 @@ class COORD{
 
 }
 
-/*
-* @return COORD[] 
-*/
-function loadPoints() : array {
+class POINT extends COORD{
+  public int $point_ID;
+  public int $update_time;
+  public array $forecast_data;
+
+  function __construct(COORD $c, int $point_ID,array $forecast_data = null, int $update_time = -1){
+    parent::__construct($c->lat,$c->lon);
+    $this->$point_ID = $point_ID;
+    $this->$forecast_data = $forecast_data;
+    $this->$update_time = $update_time;
+  }
+
+}
+
+/**
+ * @return POINT[]
+ */
+function loadPoints(COORD $startLocation = null,int $N = 50) : array {
+
   $conn = getDbConnection();
   $res = $conn->query("SELECT * FROM points ORDER BY point_ID");
   $out = [];
   while($row = $res->fetch_assoc()){
-    $row["coord"] = new COORD($row["latitude"],$row["longitude"]);
-    unset($row["latitude"],$row["longitude"]);
-    $out[] = $row;
+    $out[] = new POINT(new COORD($row["latitude"],$row["longitude"]),$row["point_ID"]);
+  }
+
+  if($startLocation != null) {
+    
   }
   return $out; 
 }
 
-function getRoute(COORD $first, COORD $second,COORD ...$more){
 
-  $waypoints = [$second,...$more];
-  $concatenated_waypoints = strval($first->lon).','.strval($first->lat);
+//TODO: KILL IT WAS A BAD IDEA JOIN IT WITH loadPoints()
+/**
+ * @return COORD[]|false 
+ */
+function getForecast(POINT $first, POINT $second,POINT ...$more): array|false { 
   
-  foreach($waypoints as $waypoint){
-    $concatenated_waypoints .= ';'.strval($waypoint->lon).','.strval($waypoint->lat);
-  }
+  $arrays = array_chunk(array($first,$second,...$more),40,false);
 
-  $requestRoute = 'http://router.project-osrm.org/route/v1/driving/%s?overview=false';
-  $req = sprintf(
+  $responses = [];
+  for($i = 0; $i < sizeof($arrays); $i++){
+    if(isset($arrays[$i+1])){
+      $arrays[$i][] = $arrays[$i+1][0];
+    }
+
+    $concatenated_waypoints = '';
+    foreach($arrays[$i] as $waypoint){
+      $concatenated_waypoints .= strval($waypoint->lon).','.strval($waypoint->lat).';';
+    }
+    $concatenated_waypoints = substr($concatenated_waypoints,0,-1);
+    $requestRoute = 'http://router.project-osrm.org/route/v1/driving/%s?overview=false';
+    $req = sprintf(
       $requestRoute,
       $concatenated_waypoints
-  );
-
-  $res = file_get_contents($req);
-  if($res === false){
-    return false;
+    );
+    
+    $responses[] = json_decode(file_get_contents($req));
   }
-  return json_decode($res);
+
+  return array_column(array_column(array_column($responses,"routes"),0),"legs"); //idk merge these somehow
+
 }
 
-function getForecastOnRoute(COORD $first, COORD $second,COORD ...$more){
-  //TODO: 1)get suncalc data 2)sort out weather API
-}
 ?>

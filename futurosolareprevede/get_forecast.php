@@ -26,13 +26,9 @@ foreach($points as $id => $point){
 $first_point = ($closest["id"] > $second_closest["id"]) ? $closest : $second_closest;
 $next_waypoints = array_slice($points,$first_point["id"],30,false);
 
-$route = getRoute(...array_column($next_waypoints,"coord"));
-$is_updated = ($route === false) ? false : true; 
+$forecast = getForecast(...array_column($next_waypoints,"coord"));
+$is_updated = ($forecast === false) ? false : true; 
 
-//TODO: Update DB and stuff with new info and connect to weather service
-foreach($next_waypoints as $wp){
-  
-}
 header("Content-Type: application/json");
 $out = array(
   "flag"=>$is_updated,
