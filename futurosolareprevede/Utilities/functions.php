@@ -59,10 +59,35 @@ class POINT extends COORD{
 
 }
 
+function loadForecast(COORD $startLocation, int $N){
+
+  $points = loadPoints();
+
+  $closest = array("coords" => new COORD(0,0), "distance" => INF, "id" => NULL);
+  $second_closest = array("coords" => new COORD(0,0), "distance" => INF, "id" => NULL);
+
+  foreach($points as $id => $point){
+    $cur_distance = $startLocation->getDistanceFrom($point["coord"]);
+    if($cur_distance < $closest["distance"]){
+      $second_closest = $closest;
+      $closest = array("coords" => $startLocation, "distance" => $cur_distance,"id" => $id);
+    } else if($cur_distance < $startLocation["distance"]) {
+      $second_closest = array("coords" => $startLocation, "distance" => $cur_distance,"id" => $id);
+    }
+  }
+  
+  $first_point = ($closest["id"] > $second_closest["id"]) ? $closest : $second_closest;
+  $waypoints = array_slice($points,$first_point["id"],30,false);
+  
+  $data = [];
+
+  return $data;
+}
+
 /**
  * @return POINT[]
  */
-function loadPoints(COORD $startLocation = null,int $N = 50) : array {
+function loadPoints() : array {
 
   $conn = getDbConnection();
   $res = $conn->query("SELECT * FROM points ORDER BY point_ID");
@@ -70,13 +95,8 @@ function loadPoints(COORD $startLocation = null,int $N = 50) : array {
   while($row = $res->fetch_assoc()){
     $out[] = new POINT(new COORD($row["latitude"],$row["longitude"]),$row["point_ID"]);
   }
-
-  if($startLocation != null) {
-    
-  }
-  return $out; 
+  return $out;
 }
-
 
 //TODO: KILL IT WAS A BAD IDEA JOIN IT WITH loadPoints()
 /**
@@ -86,7 +106,7 @@ function getForecast(POINT $first, POINT $second,POINT ...$more): array|false {
   
   $arrays = array_chunk(array($first,$second,...$more),40,false);
 
-  $responses = [];
+  $data = [];
   for($i = 0; $i < sizeof($arrays); $i++){
     if(isset($arrays[$i+1])){
       $arrays[$i][] = $arrays[$i+1][0];
@@ -102,12 +122,22 @@ function getForecast(POINT $first, POINT $second,POINT ...$more): array|false {
       $requestRoute,
       $concatenated_waypoints
     );
-    
-    $responses[] = json_decode(file_get_contents($req));
+    $res = json_decode(file_get_contents($req),true);
+    $OSRMlegs = array_column($res["routes"],"legs")[0];
+    $OSRMwaypoints = array_column($res["waypoints"],"location");
+    echo "dumpin";
+    var_dump($OSRMlegs[0]);
+    for($i = 0; $i < sizeof($OSRMlegs); $i++){
+      $data[] = array(
+        "location" => new COORD(...array_reverse($OSRMwaypoints[$i])), //WHY in the love of god does OSRM flips Latitude and Longitude
+        "distance_to_next" => $OSRMlegs[$i]["distance"],
+        "time_to_next" => $OSRMlegs[$i]["duration"]
+      );
+    }
   }
+  var_dump($data);
 
-  return array_column(array_column(array_column($responses,"routes"),0),"legs"); //idk merge these somehow
+  return $data; //idk merge these somehow
 
 }
-
 ?>

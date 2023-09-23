@@ -1,5 +1,6 @@
 <?php
 include_once("Utilities/functions.php");
+echo "<pre>";
 $data = loadPoints();
 $forecast = getForecast(...$data);
 echo("<pre>");
