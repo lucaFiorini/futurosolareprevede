@@ -98,9 +98,9 @@ function loadPoints() : array {
 }
 
 /**
- * @return POINT[]|false 
+ * @return POINT[]|COORD[]|false 
  */
-function loadOSRMdata(POINT $first, POINT $second,POINT ...$more): array|false { 
+function loadOSRMdata(POINT|COORD $first, POINT|COORD $second,POINT|COORD ...$more): array|false { 
   
   $N = 40;
   $points = array($first,$second,...$more);
@@ -142,7 +142,18 @@ function loadOSRMdata(POINT $first, POINT $second,POINT ...$more): array|false {
     "time_to_next" => NULL
   );
 
-  return $data; //idk merge these somehow
-
+  return $data;
 }
+
+//TODO: load data from https://open-meteo.com/en/docs#start_date=2023-09-25&end_date=2023-09-25
+function loadOpenMeteoData(COORD $c, $timestamp) : array{
+  //1: load data for hour before and after $timestamp
+  //2: weigh data depending on current minute 
+  //N.B: If current time is 15:15 -> weigh output to be influenced by 3/4 by the 15:00 reading and by 1/4 by the 16:00 reading
+  //4: update database with latest info
+  //3: return output in standards associative array to be passed down to js.
+  $out = [];
+  return $out;
+}
+
 ?>
