@@ -26,7 +26,7 @@ foreach($points as $id => $point){
 $first_point = ($closest["id"] > $second_closest["id"]) ? $closest : $second_closest;
 $next_waypoints = array_slice($points,$first_point["id"],30,false);
 
-$forecast = getForecast(...array_column($next_waypoints,"coord"));
+$forecast = loadOSRMdata(...array_column($next_waypoints,"coord"));
 $is_updated = ($forecast === false) ? false : true; 
 
 header("Content-Type: application/json");

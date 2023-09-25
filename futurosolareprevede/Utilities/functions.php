@@ -47,14 +47,14 @@ class COORD{
 
 class POINT extends COORD{
   public int $point_ID;
-  public int $update_time;
-  public array $forecast_data;
+  public int|null $update_time;
+  public array|null $forecast_data;
 
   function __construct(COORD $c, int $point_ID,array $forecast_data = null, int $update_time = -1){
     parent::__construct($c->lat,$c->lon);
-    $this->$point_ID = $point_ID;
-    $this->$forecast_data = $forecast_data;
-    $this->$update_time = $update_time;
+    $this->point_ID = $point_ID;
+    $this->forecast_data = $forecast_data;
+    $this->update_time = $update_time;
   }
 
 }
@@ -88,7 +88,6 @@ function loadForecast(COORD $startLocation, int $N){
  * @return POINT[]
  */
 function loadPoints() : array {
-
   $conn = getDbConnection();
   $res = $conn->query("SELECT * FROM points ORDER BY point_ID");
   $out = [];
@@ -98,44 +97,50 @@ function loadPoints() : array {
   return $out;
 }
 
-//TODO: KILL IT WAS A BAD IDEA JOIN IT WITH loadPoints()
 /**
- * @return COORD[]|false 
+ * @return POINT[]|false 
  */
-function getForecast(POINT $first, POINT $second,POINT ...$more): array|false { 
+function loadOSRMdata(POINT $first, POINT $second,POINT ...$more): array|false { 
   
-  $arrays = array_chunk(array($first,$second,...$more),40,false);
+  $N = 40;
+  $points = array($first,$second,...$more);
+  $arrays = array_chunk($points,$N,false);
 
   $data = [];
   for($i = 0; $i < sizeof($arrays); $i++){
-    if(isset($arrays[$i+1])){
-      $arrays[$i][] = $arrays[$i+1][0];
-    }
-
     $concatenated_waypoints = '';
     foreach($arrays[$i] as $waypoint){
       $concatenated_waypoints .= strval($waypoint->lon).','.strval($waypoint->lat).';';
     }
+    if(isset($arrays[$i+1])){ //add extra point so route can be calculated
+      $concatenated_waypoints .=strval($arrays[$i+1][0]->lon).','.strval($arrays[$i+1][0]->lat).';';
+    }
+
     $concatenated_waypoints = substr($concatenated_waypoints,0,-1);
+
     $requestRoute = 'http://router.project-osrm.org/route/v1/driving/%s?overview=false';
     $req = sprintf(
       $requestRoute,
       $concatenated_waypoints
     );
+    
     $res = json_decode(file_get_contents($req),true);
     $OSRMlegs = array_column($res["routes"],"legs")[0];
     $OSRMwaypoints = array_column($res["waypoints"],"location");
-    echo "dumpin";
-    var_dump($OSRMlegs[0]);
-    for($i = 0; $i < sizeof($OSRMlegs); $i++){
+    for($j = 0; $j < sizeof($OSRMlegs); $j++){
       $data[] = array(
-        "location" => new COORD(...array_reverse($OSRMwaypoints[$i])), //WHY in the love of god does OSRM flips Latitude and Longitude
-        "distance_to_next" => $OSRMlegs[$i]["distance"],
-        "time_to_next" => $OSRMlegs[$i]["duration"]
+        "location" => $points[($i*40)+$j],
+        "distance_to_next" => $OSRMlegs[$j]["distance"],
+        "time_to_next" => $OSRMlegs[$j]["duration"]
       );
     }
   }
-  var_dump($data);
+
+  $data[] = array(
+    "location" => end($more),
+    "distance_to_next" => NULL,
+    "time_to_next" => NULL
+  );
 
   return $data; //idk merge these somehow
 
