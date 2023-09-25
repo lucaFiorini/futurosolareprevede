@@ -1,1882 +1,1258 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 3.0.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="-34.906300999999999" minlon="130.834324000000009" maxlat="-12.425402330379631" maxlon="138.591134000000011"/></metadata>              
-<wpt lat="-34.906301" lon="138.591134">
+<metadata><bounds minlat="-34.928849999999997" minlon="130.834129999999988" maxlat="-12.441659348197303" maxlon="138.596609999999998"/></metadata>              
+<wpt lat="-12.45965" lon="130.83413">
   <extensions>
     <ogr:fid>0</ogr:fid>
     <ogr:cnggradi>0.0</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-34.829931448404707" lon="138.562529032202576">
+<wpt lat="-12.441659348197303" lon="130.945516424990018">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>0.089831528</ogr:cnggradi>
+    <ogr:cnggradi>0.134747293</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-34.752349270965652" lon="138.582989851861527">
+<wpt lat="-12.524992528749936" lon="131.044576916466269">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>0.179663056</ogr:cnggradi>
+    <ogr:cnggradi>0.269494586</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-34.674431133723019" lon="138.54913044970786">
+<wpt lat="-12.649225069762124" lon="131.076566839810027">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>0.269494584</ogr:cnggradi>
+    <ogr:cnggradi>0.404241879</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-34.59517131718394" lon="138.509820070125556">
+<wpt lat="-12.776923162903707" lon="131.112364150771299">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>0.359326112</ogr:cnggradi>
+    <ogr:cnggradi>0.538989172</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-34.536475029443075" lon="138.441818712669118">
+<wpt lat="-12.90187450367088" lon="131.138885877900947">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>0.44915764</ogr:cnggradi>
+    <ogr:cnggradi>0.673736465</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-34.474325157527311" lon="138.377125628455076">
+<wpt lat="-13.029547456036267" lon="131.121045661309125">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>0.538989168</ogr:cnggradi>
+    <ogr:cnggradi>0.808483758</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-34.404984796354135" lon="138.323487935236358">
+<wpt lat="-13.159477963295648" lon="131.10569363686966">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>0.628820696</ogr:cnggradi>
+    <ogr:cnggradi>0.943231051</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-34.33170817707628" lon="138.273771832725799">
+<wpt lat="-13.264634080767452" lon="131.149376356084758">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>0.718652224</ogr:cnggradi>
+    <ogr:cnggradi>1.077978344</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-34.260116255988592" lon="138.223457071342978">
+<wpt lat="-13.365862344030502" lon="131.217981628101001">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>0.808483752</ogr:cnggradi>
+    <ogr:cnggradi>1.212725637</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-34.194905908025731" lon="138.164643210189354">
+<wpt lat="-13.448428948785633" lon="131.319721810290332">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>0.89831528</ogr:cnggradi>
+    <ogr:cnggradi>1.34747293</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-34.120388546533341" lon="138.183131049594834">
+<wpt lat="-13.53700534133023" lon="131.413235822360463">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>0.988146808</ogr:cnggradi>
+    <ogr:cnggradi>1.482220223</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-34.035960256486788" lon="138.208975896858959">
+<wpt lat="-13.592938983783261" lon="131.505792206742342">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>1.077978336</ogr:cnggradi>
+    <ogr:cnggradi>1.616967516</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-33.963144638888927" lon="138.181051749188015">
+<wpt lat="-13.626651761182275" lon="131.622652445400263">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>1.167809864</ogr:cnggradi>
+    <ogr:cnggradi>1.751714809</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-33.883348614858534" lon="138.174412675528913">
+<wpt lat="-13.719731177588397" lon="131.706445881895235">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>1.257641392</ogr:cnggradi>
+    <ogr:cnggradi>1.886462102</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-33.80205630386525" lon="138.210913706256406">
+<wpt lat="-13.802155892821169" lon="131.810113088368695">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>1.34747292</ogr:cnggradi>
+    <ogr:cnggradi>2.021209395</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-33.714821201603264" lon="138.211316690167649">
+<wpt lat="-13.909505095163368" lon="131.859045322527265">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>1.437304448</ogr:cnggradi>
+    <ogr:cnggradi>2.155956688</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-33.62798715250338" lon="138.227192953732668">
+<wpt lat="-14.017945900164229" lon="131.936012452513069">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>1.527135976</ogr:cnggradi>
+    <ogr:cnggradi>2.290703981</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-33.539795124268458" lon="138.216239152665167">
+<wpt lat="-14.130762360340366" lon="131.996104374791059">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>1.616967504</ogr:cnggradi>
+    <ogr:cnggradi>2.425451274</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-33.468796971227086" lon="138.164198492130879">
+<wpt lat="-14.246275607276214" lon="132.053695669112557">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>1.706799032</ogr:cnggradi>
+    <ogr:cnggradi>2.560198567</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-33.384875044317006" lon="138.17189928532818">
+<wpt lat="-14.348267123676457" lon="132.135895964008199">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>1.79663056</ogr:cnggradi>
+    <ogr:cnggradi>2.69494586</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-33.301158973145" lon="138.172337573106091">
+<wpt lat="-14.434715197800095" lon="132.225513838900156">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>1.886462088</ogr:cnggradi>
+    <ogr:cnggradi>2.829693153</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-33.233493394783792" lon="138.116627668004782">
+<wpt lat="-14.482862230134016" lon="132.345696194816071">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>1.976293616</ogr:cnggradi>
+    <ogr:cnggradi>2.964440446</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-33.166355110171374" lon="138.067323824863507">
+<wpt lat="-14.546458818884563" lon="132.440054566314387">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>2.066125144</ogr:cnggradi>
+    <ogr:cnggradi>3.099187739</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-33.082923514161038" lon="138.050531508026808">
+<wpt lat="-14.601736715022417" lon="132.561291800886352">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>2.155956672</ogr:cnggradi>
+    <ogr:cnggradi>3.233935032</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-33.004316194048627" lon="138.008991354441719">
+<wpt lat="-14.671562485062674" lon="132.670697472564285">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>2.2457882</ogr:cnggradi>
+    <ogr:cnggradi>3.368682325</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-32.926948012320779" lon="137.982385817629051">
+<wpt lat="-14.713189938331348" lon="132.797468338573282">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>2.335619728</ogr:cnggradi>
+    <ogr:cnggradi>3.503429618</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-32.837143540242366" lon="137.981173826619965">
+<wpt lat="-14.782118782531333" lon="132.907234669987218">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>2.425451256</ogr:cnggradi>
+    <ogr:cnggradi>3.638176911</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-32.755058822150531" lon="137.94880654610543">
+<wpt lat="-14.86949194060799" lon="133.005719353954419">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>2.515282784</ogr:cnggradi>
+    <ogr:cnggradi>3.772924204</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-32.668748616245459" lon="137.932504197796305">
+<wpt lat="-14.97397759518454" lon="133.078078280267761">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>2.605114312</ogr:cnggradi>
+    <ogr:cnggradi>3.907671497</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-32.590710169643117" lon="137.889995782157655">
+<wpt lat="-15.105069915822831" lon="133.07651408291494">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>2.69494584</ogr:cnggradi>
+    <ogr:cnggradi>4.04241879</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-32.52600168317985" lon="137.829960905428521">
+<wpt lat="-15.233536939518586" lon="133.113613517224849">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>2.784777368</ogr:cnggradi>
+    <ogr:cnggradi>4.177166083</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-32.480871543623209" lon="137.754869005375866">
+<wpt lat="-15.358840766471204" lon="133.160718076376497">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>2.874608896</ogr:cnggradi>
+    <ogr:cnggradi>4.311913376</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-32.426764658655664" lon="137.685274891440912">
+<wpt lat="-15.488893506675877" lon="133.195149090474644">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>2.964440424</ogr:cnggradi>
+    <ogr:cnggradi>4.446660669</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-32.367360879225572" lon="137.618228986048848">
+<wpt lat="-15.613644139621705" lon="133.24011104644876">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>3.054271952</ogr:cnggradi>
+    <ogr:cnggradi>4.581407962</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-32.28965649088331" lon="137.575608319766815">
+<wpt lat="-15.710118082440367" lon="133.330976922371775">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>3.14410348</ogr:cnggradi>
+    <ogr:cnggradi>4.716155255</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-32.218085633166289" lon="137.522468824192828">
+<wpt lat="-15.822838605787116" lon="133.38690615652655">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>3.233935008</ogr:cnggradi>
+    <ogr:cnggradi>4.850902548</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-32.153130527768184" lon="137.460416731377109">
+<wpt lat="-15.94600256505473" lon="133.434979470242752">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>3.323766536</ogr:cnggradi>
+    <ogr:cnggradi>4.985649841</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-32.070916987351708" lon="137.444460528116707">
+<wpt lat="-16.068290065418456" lon="133.431073186587042">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>3.413598064</ogr:cnggradi>
+    <ogr:cnggradi>5.120397134</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.990167984532338" lon="137.416561882303085">
+<wpt lat="-16.201751194897874" lon="133.425433868487715">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>3.503429592</ogr:cnggradi>
+    <ogr:cnggradi>5.255144427</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.913703227846256" lon="137.370158240167541">
+<wpt lat="-16.323258451609011" lon="133.382071965064142">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>3.59326112</ogr:cnggradi>
+    <ogr:cnggradi>5.38989172</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.835484196851002" lon="137.325982618124499">
+<wpt lat="-16.456047487574015" lon="133.388016798674556">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>3.683092648</ogr:cnggradi>
+    <ogr:cnggradi>5.524639013</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.762275493085514" lon="137.275621555675599">
+<wpt lat="-16.583098386491404" lon="133.356823084888134">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>3.772924176</ogr:cnggradi>
+    <ogr:cnggradi>5.659386306</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.700377747196089" lon="137.213924303991348">
+<wpt lat="-16.700594568368555" lon="133.416220107581296">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>3.862755704</ogr:cnggradi>
+    <ogr:cnggradi>5.794133599</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.644065543476195" lon="137.151176211580406">
+<wpt lat="-16.833874071430458" lon="133.427663028243671">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>3.952587232</ogr:cnggradi>
+    <ogr:cnggradi>5.928880892</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.558707019727077" lon="137.12648690385538">
+<wpt lat="-16.967819821028424" lon="133.430525744754789">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>4.04241876</ogr:cnggradi>
+    <ogr:cnggradi>6.063628185</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.485587029973725" lon="137.08541543978464">
+<wpt lat="-17.100622340277575" lon="133.453335402587925">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>4.132250288</ogr:cnggradi>
+    <ogr:cnggradi>6.198375478</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.44287563085237" lon="137.008189673244573">
+<wpt lat="-17.232932998656313" lon="133.465388400096657">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>4.222081816</ogr:cnggradi>
+    <ogr:cnggradi>6.333122771</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.388453958374583" lon="136.94488991053089">
+<wpt lat="-17.363822274655178" lon="133.437897773474219">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>4.311913344</ogr:cnggradi>
+    <ogr:cnggradi>6.467870064</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.339043300371781" lon="136.872258437351547">
+<wpt lat="-17.482771997238707" lon="133.498891621629838">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>4.401744872</ogr:cnggradi>
+    <ogr:cnggradi>6.602617357</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.269209943749097" lon="136.815906123633255">
+<wpt lat="-17.583382675803175" lon="133.584113485844711">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>4.4915764</ogr:cnggradi>
+    <ogr:cnggradi>6.73736465</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.248301295133299" lon="136.731998596529024">
+<wpt lat="-17.708305515066026" lon="133.62998052303638">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>4.581407928</ogr:cnggradi>
+    <ogr:cnggradi>6.872111943</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.268989582584876" lon="136.64486444185539">
+<wpt lat="-17.830912106974996" lon="133.679540196845721">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>4.671239456</ogr:cnggradi>
+    <ogr:cnggradi>7.006859236</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.246730241563455" lon="136.559549652165629">
+<wpt lat="-17.959327354746723" lon="133.713697541535623">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>4.761070984</ogr:cnggradi>
+    <ogr:cnggradi>7.141606529</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.232998769278261" lon="136.475294033878725">
+<wpt lat="-18.093192479373851" lon="133.720252680980451">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>4.850902512</ogr:cnggradi>
+    <ogr:cnggradi>7.276353822</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.235078115842533" lon="136.386518378993941">
+<wpt lat="-18.225147016260401" lon="133.736678505933668">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>4.94073404</ogr:cnggradi>
+    <ogr:cnggradi>7.411101115</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.203752639101122" lon="136.303568643402883">
+<wpt lat="-18.338010347975018" lon="133.808002347130525">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>5.030565568</ogr:cnggradi>
+    <ogr:cnggradi>7.545848408</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.184561253835469" lon="136.216871645124371">
+<wpt lat="-18.455720417633355" lon="133.861632067694785">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>5.120397096</ogr:cnggradi>
+    <ogr:cnggradi>7.680595701</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.170686055708625" lon="136.128689072690378">
+<wpt lat="-18.573688116697085" lon="133.919783896519817">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>5.210228624</ogr:cnggradi>
+    <ogr:cnggradi>7.815342994</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.154241322190067" lon="136.041030273118054">
+<wpt lat="-18.694855501288131" lon="133.978633560987248">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>5.300060152</ogr:cnggradi>
+    <ogr:cnggradi>7.950090287</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.124709059915347" lon="135.956759996067376">
+<wpt lat="-18.81177088876473" lon="134.041645573862979">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>5.38989168</ogr:cnggradi>
+    <ogr:cnggradi>8.08483758</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.094880439179551" lon="135.873440908664776">
+<wpt lat="-18.918833218065924" lon="134.116209547785814">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>5.479723208</ogr:cnggradi>
+    <ogr:cnggradi>8.219584873</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-31.035032899635439" lon="135.811215412745582">
+<wpt lat="-19.042190276059198" lon="134.151260138029585">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>5.569554736</ogr:cnggradi>
+    <ogr:cnggradi>8.35433216600001</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-30.972146408073755" lon="135.750035332262598">
+<wpt lat="-19.16933145913011" lon="134.166429853376513">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>5.659386264</ogr:cnggradi>
+    <ogr:cnggradi>8.48907945900001</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-30.905045303023712" lon="135.691729032823957">
+<wpt lat="-19.301995575596287" lon="134.185753070464699">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>5.749217792</ogr:cnggradi>
+    <ogr:cnggradi>8.62382675200001</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-30.870244835192864" lon="135.611920047149198">
+<wpt lat="-19.435014073541222" lon="134.207234574773992">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>5.83904932</ogr:cnggradi>
+    <ogr:cnggradi>8.75857404500001</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-30.814845011841339" lon="135.543307019091316">
+<wpt lat="-19.565018264008248" lon="134.21795819678124">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>5.928880848</ogr:cnggradi>
+    <ogr:cnggradi>8.89332133800001</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-30.738569939511326" lon="135.501492015019863">
+<wpt lat="-19.687952510706896" lon="134.177574533626682">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>6.018712376</ogr:cnggradi>
+    <ogr:cnggradi>9.028068631000011</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-30.676258154092277" lon="135.438971382875422">
+<wpt lat="-19.819328524297802" lon="134.199792207177666">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>6.108543904</ogr:cnggradi>
+    <ogr:cnggradi>9.162815924000011</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-30.60575612519678" lon="135.386645482274787">
+<wpt lat="-19.953454283583806" lon="134.21271917307763">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>6.198375432</ogr:cnggradi>
+    <ogr:cnggradi>9.297563217000011</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-30.523812376375478" lon="135.352353257976915">
+<wpt lat="-20.083588119360012" lon="134.213863880423673">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>6.28820696</ogr:cnggradi>
+    <ogr:cnggradi>9.432310510000011</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-30.43602542734136" lon="135.352052822675887">
+<wpt lat="-20.217369096445097" lon="134.221390759910093">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>6.378038488</ogr:cnggradi>
+    <ogr:cnggradi>9.567057803000012</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-30.35285939350031" lon="135.325834392852187">
+<wpt lat="-20.351141288724708" lon="134.236927724304365">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>6.467870016</ogr:cnggradi>
+    <ogr:cnggradi>9.701805096000012</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-30.27823143829292" lon="135.278324494976317">
+<wpt lat="-20.484891901256354" lon="134.252699303936339">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>6.557701544</ogr:cnggradi>
+    <ogr:cnggradi>9.836552389000012</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-30.206726352745424" lon="135.227286532509538">
+<wpt lat="-20.596619335602441" lon="134.238571882830769">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>6.647533072</ogr:cnggradi>
+    <ogr:cnggradi>9.971299682000012</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-30.129525383057494" lon="135.195200253593669">
+<wpt lat="-20.721177302762083" lon="134.239657649262369">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>6.7373646</ogr:cnggradi>
+    <ogr:cnggradi>10.106046975000012</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-30.039693860275623" lon="135.195229974754682">
+<wpt lat="-20.854077397592359" lon="134.238015369546815">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>6.82719612800001</ogr:cnggradi>
+    <ogr:cnggradi>10.240794268000013</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-29.956492106265046" lon="135.164361251683374">
+<wpt lat="-20.983793277497028" lon="134.20153864833452">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>6.91702765600001</ogr:cnggradi>
+    <ogr:cnggradi>10.375541561000013</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-29.875344886925625" lon="135.129138137119611">
+<wpt lat="-21.113381424825359" lon="134.164626780713235">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>7.00685918400001</ogr:cnggradi>
+    <ogr:cnggradi>10.510288854000013</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-29.787842368838479" lon="135.1207579252833">
+<wpt lat="-21.240486665270318" lon="134.121822660194454">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>7.096690712000011</ogr:cnggradi>
+    <ogr:cnggradi>10.645036147000013</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-29.699990560308088" lon="135.131728956204114">
+<wpt lat="-21.33148831616581" lon="134.022577363938552">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>7.186522240000011</ogr:cnggradi>
+    <ogr:cnggradi>10.779783440000013</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-29.615878285589009" lon="135.120900490754707">
+<wpt lat="-21.432474734071103" lon="133.93535582262075">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>7.276353768000011</ogr:cnggradi>
+    <ogr:cnggradi>10.914530733000014</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-29.550074376379708" lon="135.067179054560199">
+<wpt lat="-21.537822278902201" lon="133.864950667329424">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>7.366185296000012</ogr:cnggradi>
+    <ogr:cnggradi>11.049278026000014</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-29.476669099009623" lon="135.017739992464897">
+<wpt lat="-21.609728946213121" lon="133.754209337445559">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>7.456016824000012</ogr:cnggradi>
+    <ogr:cnggradi>11.184025319000014</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-29.390401809401315" lon="134.998803298331808">
+<wpt lat="-21.728506518587796" lon="133.738582075056968">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>7.545848352000013</ogr:cnggradi>
+    <ogr:cnggradi>11.318772612000014</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-29.305289962829733" lon="134.973460903372967">
+<wpt lat="-21.824258486896365" lon="133.653873993944615">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>7.635679880000013</ogr:cnggradi>
+    <ogr:cnggradi>11.453519905000014</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-29.217075789930899" lon="134.957481520433504">
+<wpt lat="-21.915428991240898" lon="133.555179829912788">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>7.725511408000013</ogr:cnggradi>
+    <ogr:cnggradi>11.588267198000015</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-29.14121805650365" lon="134.915189475933687">
+<wpt lat="-22.011000181413511" lon="133.463993047492693">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>7.815342936000014</ogr:cnggradi>
+    <ogr:cnggradi>11.723014491000015</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-29.078134780367904" lon="134.856494622805741">
+<wpt lat="-22.134204298699526" lon="133.416935927642527">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>7.905174464000014</ogr:cnggradi>
+    <ogr:cnggradi>11.857761784000015</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-29.029953868981018" lon="134.781971500102344">
+<wpt lat="-22.262569177904673" lon="133.42331964048995">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>7.995005992000014</ogr:cnggradi>
+    <ogr:cnggradi>11.992509077000015</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-29.004743138522556" lon="134.700385282604998">
+<wpt lat="-22.388476368507977" lon="133.376480060844102">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>8.084837520000015</ogr:cnggradi>
+    <ogr:cnggradi>12.127256370000016</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-28.92727326361376" lon="134.662535373386703">
+<wpt lat="-22.51487053703223" lon="133.331354884536836">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>8.174669048000014</ogr:cnggradi>
+    <ogr:cnggradi>12.262003663000016</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-28.859124965583813" lon="134.60518055497036">
+<wpt lat="-22.645547429794355" lon="133.351803768084267">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>8.264500576000014</ogr:cnggradi>
+    <ogr:cnggradi>12.396750956000016</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-28.802517909181201" lon="134.538472772953014">
+<wpt lat="-22.769453123189162" lon="133.40475848136677">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>8.354332104000013</ogr:cnggradi>
+    <ogr:cnggradi>12.531498249000016</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-28.732374077991722" lon="134.483674844168775">
+<wpt lat="-22.878480940383152" lon="133.481006048333228">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>8.444163632000013</ogr:cnggradi>
+    <ogr:cnggradi>12.666245542000016</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-28.674055187610907" lon="134.418949592949616">
+<wpt lat="-22.980215578433295" lon="133.56927051022808">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>8.533995160000012</ogr:cnggradi>
+    <ogr:cnggradi>12.800992835000017</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-28.635110569695932" lon="134.339678574006143">
+<wpt lat="-23.082419877205691" lon="133.657083359316545">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>8.623826688000012</ogr:cnggradi>
+    <ogr:cnggradi>12.935740128000017</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-28.576758115938009" lon="134.275777013822335">
+<wpt lat="-23.184720407938325" lon="133.74478366760232">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>8.713658216000011</ogr:cnggradi>
+    <ogr:cnggradi>13.070487421000017</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-28.507005499759629" lon="134.221318766039559">
+<wpt lat="-23.309600062288396" lon="133.789933294193048">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>8.803489744000011</ogr:cnggradi>
+    <ogr:cnggradi>13.205234714000017</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-28.429392414575894" lon="134.187090975583999">
+<wpt lat="-23.437708348635233" lon="133.83170750347881">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>8.89332127200001</ogr:cnggradi>
+    <ogr:cnggradi>13.339982007000017</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-28.341280623808355" lon="134.172603835071243">
+<wpt lat="-23.565979429994023" lon="133.872474396151546">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>8.98315280000001</ogr:cnggradi>
+    <ogr:cnggradi>13.474729300000018</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-28.253646058563678" lon="134.154274462407926">
+<wpt lat="-23.687275768247062" lon="133.874415939915906">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>9.072984328</ogr:cnggradi>
+    <ogr:cnggradi>13.609476593000018</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-28.167637452882428" lon="134.132162616247513">
+<wpt lat="-23.801308081086965" lon="133.859736707816921">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>9.162815856</ogr:cnggradi>
+    <ogr:cnggradi>13.744223886000018</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-28.082851429176163" lon="134.119065720643192">
+<wpt lat="-23.901539069504921" lon="133.769896239371974">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>9.252647384</ogr:cnggradi>
+    <ogr:cnggradi>13.878971179000018</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-27.996779409455048" lon="134.112799497723699">
+<wpt lat="-23.993732208197287" lon="133.671909324184469">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>9.342478912</ogr:cnggradi>
+    <ogr:cnggradi>14.013718472000019</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-27.920315439118948" lon="134.068233786925418">
+<wpt lat="-24.088806789175013" lon="133.578223237803428">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>9.43231044</ogr:cnggradi>
+    <ogr:cnggradi>14.148465765000019</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-27.840336110346662" lon="134.02843174828061">
+<wpt lat="-24.188915617885382" lon="133.490285490214347">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>9.522141968</ogr:cnggradi>
+    <ogr:cnggradi>14.283213058000019</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-27.757861179060598" lon="134.000457534546655">
+<wpt lat="-24.299507844120058" lon="133.438397500376993">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>9.611973496</ogr:cnggradi>
+    <ogr:cnggradi>14.417960351000019</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-27.686419566462497" lon="133.947464967661944">
+<wpt lat="-24.390453027429047" lon="133.401260782304462">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>9.701805024</ogr:cnggradi>
+    <ogr:cnggradi>14.552707644000019</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-27.627968585866679" lon="133.880306500123083">
+<wpt lat="-24.474141695965017" lon="133.298951725403526">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>9.791636552</ogr:cnggradi>
+    <ogr:cnggradi>14.68745493700002</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-27.558993722261661" lon="133.823156964466278">
+<wpt lat="-24.578794066218375" lon="133.233536544645546">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>9.88146808</ogr:cnggradi>
+    <ogr:cnggradi>14.82220223000002</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-27.489884663091885" lon="133.765985678616431">
+<wpt lat="-24.70169320751717" lon="133.190423396241414">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>9.971299608</ogr:cnggradi>
+    <ogr:cnggradi>14.95694952300002</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-27.421206291589748" lon="133.70846824981183">
+<wpt lat="-24.827745107609047" lon="133.190354685055098">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>10.061131136</ogr:cnggradi>
+    <ogr:cnggradi>15.09169681600002</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-27.349524772968199" lon="133.655030426698801">
+<wpt lat="-24.961311942158666" lon="133.195472493499523">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>10.150962664</ogr:cnggradi>
+    <ogr:cnggradi>15.22644410900002</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-27.27970422996664" lon="133.599224505794666">
+<wpt lat="-25.095052897637586" lon="133.19789588495766">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>10.240794192</ogr:cnggradi>
+    <ogr:cnggradi>15.361191402000021</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-27.209069267346106" lon="133.544214689407653">
+<wpt lat="-25.227560605231069" lon="133.20478">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>10.33062572</ogr:cnggradi>
+    <ogr:cnggradi>15.495938695000021</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-27.128987570902201" lon="133.508399600179217">
+<wpt lat="-25.359351358209238" lon="133.192534252146345">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>10.420457248</ogr:cnggradi>
+    <ogr:cnggradi>15.630685988000021</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-27.060079400030521" lon="133.455084587482929">
+<wpt lat="-25.488832072661932" lon="133.223776794073757">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>10.510288776</ogr:cnggradi>
+    <ogr:cnggradi>15.765433281000021</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-26.982223333882121" lon="133.411069014097279">
+<wpt lat="-25.621251064004969" lon="133.21274248986299">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>10.600120304</ogr:cnggradi>
+    <ogr:cnggradi>15.900180574000021</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-26.909511126806301" lon="133.377448036557865">
+<wpt lat="-25.738030772575417" lon="133.277579542040428">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>10.689951832</ogr:cnggradi>
+    <ogr:cnggradi>16.034927867000022</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-26.839976914792111" lon="133.3388012985925">
+<wpt lat="-25.862107702073061" lon="133.286175169075136">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>10.77978336</ogr:cnggradi>
+    <ogr:cnggradi>16.169675160000022</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-26.753420273554866" lon="133.321915697555227">
+<wpt lat="-25.974513814282517" lon="133.214039318908277">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>10.869614888</ogr:cnggradi>
+    <ogr:cnggradi>16.304422453000022</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-26.670345900505239" lon="133.28829864630859">
+<wpt lat="-26.102443622940235" lon="133.199925114753029">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>10.959446416</ogr:cnggradi>
+    <ogr:cnggradi>16.439169746000022</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-26.588617988064243" lon="133.252453663556793">
+<wpt lat="-26.23639170687553" lon="133.186854319511724">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>11.049277944</ogr:cnggradi>
+    <ogr:cnggradi>16.573917039000023</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-26.499352021517531" lon="133.256615430789225">
+<wpt lat="-26.362963826888894" lon="133.217855894770594">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>11.139109472</ogr:cnggradi>
+    <ogr:cnggradi>16.708664332000023</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-26.412111848124191" lon="133.242571733127363">
+<wpt lat="-26.488520818880453" lon="133.257345874219936">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>11.228941</ogr:cnggradi>
+    <ogr:cnggradi>16.843411625000023</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-26.335874647064461" lon="133.197586362100253">
+<wpt lat="-26.618208580885465" lon="133.268992387256958">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>11.318772528</ogr:cnggradi>
+    <ogr:cnggradi>16.978158918000023</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-26.247226259130603" lon="133.186184843536893">
+<wpt lat="-26.74295676340369" lon="133.319026966443602">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>11.408604056</ogr:cnggradi>
+    <ogr:cnggradi>17.112906211000023</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-26.157923146422274" lon="133.195669405695668">
+<wpt lat="-26.857456457346757" lon="133.367881808882828">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>11.498435584</ogr:cnggradi>
+    <ogr:cnggradi>17.247653504000024</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-26.068799116975715" lon="133.194631873652526">
+<wpt lat="-26.974917674362359" lon="133.403257690158512">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>11.588267112</ogr:cnggradi>
+    <ogr:cnggradi>17.382400797000024</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-25.982879374475477" lon="133.207121925863305">
+<wpt lat="-27.09026038337857" lon="133.470735663023561">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>11.67809864</ogr:cnggradi>
+    <ogr:cnggradi>17.517148090000024</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-25.907062474043084" lon="133.253658932073648">
+<wpt lat="-27.199271152440726" lon="133.539538655500394">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>11.76793016799999</ogr:cnggradi>
+    <ogr:cnggradi>17.651895383000024</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-25.832871464765539" lon="133.295493558291724">
+<wpt lat="-27.30510189724998" lon="133.62187138627408">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>11.85776169599999</ogr:cnggradi>
+    <ogr:cnggradi>17.786642676000024</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-25.74721706498169" lon="133.283357025702657">
+<wpt lat="-27.413633788011669" lon="133.700687140820293">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>11.94759322399999</ogr:cnggradi>
+    <ogr:cnggradi>17.921389969000025</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-25.67126905751379" lon="133.235382197720185">
+<wpt lat="-27.51466884685091" lon="133.789340256532512">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>12.03742475199999</ogr:cnggradi>
+    <ogr:cnggradi>18.056137262000025</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-25.587295469303871" lon="133.210026486257334">
+<wpt lat="-27.620723618766259" lon="133.872216597586601">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>12.12725628</ogr:cnggradi>
+    <ogr:cnggradi>18.190884555000025</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-25.499543069849647" lon="133.225363664671022">
+<wpt lat="-27.713040727364312" lon="133.968195058942058">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>12.21708780799999</ogr:cnggradi>
+    <ogr:cnggradi>18.325631848000025</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-25.413457388244023" lon="133.200750182296559">
+<wpt lat="-27.830037358691715" lon="134.024981273652315">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>12.30691933599999</ogr:cnggradi>
+    <ogr:cnggradi>18.460379141000026</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-25.325514657280468" lon="133.195979261075678">
+<wpt lat="-27.947202457314269" lon="134.089132342990666">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>12.39675086399999</ogr:cnggradi>
+    <ogr:cnggradi>18.595126434000026</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-25.238317986918563" lon="133.206145672282759">
+<wpt lat="-28.073965390872782" lon="134.112848707993805">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>12.48658239199999</ogr:cnggradi>
+    <ogr:cnggradi>18.729873727000026</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-25.149601755658889" lon="133.194320826154751">
+<wpt lat="-28.199719052624928" lon="134.143259079401957">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>12.57641392</ogr:cnggradi>
+    <ogr:cnggradi>18.864621020000026</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-25.061641522102772" lon="133.201656967621886">
+<wpt lat="-28.33113149869353" lon="134.168727202359349">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>12.666245447999989</ogr:cnggradi>
+    <ogr:cnggradi>18.999368313000026</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-24.972119289016558" lon="133.196438599028141">
+<wpt lat="-28.459049444698312" lon="134.19855806554358">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>12.756076975999989</ogr:cnggradi>
+    <ogr:cnggradi>19.134115606000027</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-24.883071873262921" lon="133.194180727929222">
+<wpt lat="-28.567976932375263" lon="134.269404465103435">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>12.845908503999988</ogr:cnggradi>
+    <ogr:cnggradi>19.268862899000027</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-24.795080866930718" lon="133.181770994557354">
+<wpt lat="-28.648187159882351" lon="134.370569142257352">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>12.935740031999988</ogr:cnggradi>
+    <ogr:cnggradi>19.403610192000027</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-24.710764568657755" lon="133.184476308391311">
+<wpt lat="-28.725649823945194" lon="134.475155017521928">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>13.025571559999987</ogr:cnggradi>
+    <ogr:cnggradi>19.538357485000027</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-24.629731027963516" lon="133.2139047583847">
+<wpt lat="-28.824597579032989" lon="134.562601748496945">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>13.115403087999987</ogr:cnggradi>
+    <ogr:cnggradi>19.673104778000027</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-24.547832927881892" lon="133.237854051050903">
+<wpt lat="-28.917657681250834" lon="134.657465219577716">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>13.205234615999986</ogr:cnggradi>
+    <ogr:cnggradi>19.807852071000028</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-24.478982546391581" lon="133.289244937960746">
+<wpt lat="-29.023158899990861" lon="134.727798576898465">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>13.295066143999986</ogr:cnggradi>
+    <ogr:cnggradi>19.942599364000028</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-24.433330554351045" lon="133.365619321618709">
+<wpt lat="-29.073698076848199" lon="134.846584217294918">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>13.384897671999985</ogr:cnggradi>
+    <ogr:cnggradi>20.077346657000028</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-24.366471216408382" lon="133.425238566586046">
+<wpt lat="-29.167903061330779" lon="134.935789348058137">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>13.474729199999985</ogr:cnggradi>
+    <ogr:cnggradi>20.212093950000028</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-24.307645591897419" lon="133.445558268379813">
+<wpt lat="-29.294661257397784" lon="134.971137658377472">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>13.564560727999984</ogr:cnggradi>
+    <ogr:cnggradi>20.346841243000028</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-24.232703582957324" lon="133.456853406602875">
+<wpt lat="-29.421984485713129" lon="135.011400262325367">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>13.654392255999984</ogr:cnggradi>
+    <ogr:cnggradi>20.481588536000029</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-24.158941141696296" lon="133.506426621404984">
+<wpt lat="-29.539887619663251" lon="135.063630462459628">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>13.744223783999983</ogr:cnggradi>
+    <ogr:cnggradi>20.616335829000029</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-24.095681445418244" lon="133.569865528544142">
+<wpt lat="-29.644548698448922" lon="135.133062386837139">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>13.834055311999983</ogr:cnggradi>
+    <ogr:cnggradi>20.751083122000029</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-24.036409863878042" lon="133.636649462355592">
+<wpt lat="-29.777017319196659" lon="135.119676585535728">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>13.923886839999982</ogr:cnggradi>
+    <ogr:cnggradi>20.885830415000029</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-23.971981504033966" lon="133.698133519841406">
+<wpt lat="-29.903849405557846" lon="135.147730541030143">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>14.013718367999981</ogr:cnggradi>
+    <ogr:cnggradi>21.02057770800003</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-23.909792345915651" lon="133.76286152206643">
+<wpt lat="-30.028827796060533" lon="135.194881853756328">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>14.103549895999981</ogr:cnggradi>
+    <ogr:cnggradi>21.15532500100003</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-23.841565550204034" lon="133.821294161963777">
+<wpt lat="-30.163551361649851" lon="135.195448490891749">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>14.19338142399998</ogr:cnggradi>
+    <ogr:cnggradi>21.29007229400003</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-23.77895247115314" lon="133.876019451548615">
+<wpt lat="-30.268289475896751" lon="135.273903913497861">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>14.28321295199998</ogr:cnggradi>
+    <ogr:cnggradi>21.42481958700003</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-23.695731700462805" lon="133.87920178248487">
+<wpt lat="-30.385286308282161" lon="135.333488295423706">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>14.373044479999979</ogr:cnggradi>
+    <ogr:cnggradi>21.55956688000003</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-23.61877541234005" lon="133.875862789048881">
+<wpt lat="-30.514511266411816" lon="135.346837991279585">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>14.462876007999979</ogr:cnggradi>
+    <ogr:cnggradi>21.694314173000031</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-23.532920340684321" lon="133.862918071295837">
+<wpt lat="-30.6364381805089" lon="135.400619852175197">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>14.552707535999978</ogr:cnggradi>
+    <ogr:cnggradi>21.829061466000031</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-23.447560874877194" lon="133.834930479075098">
+<wpt lat="-30.728570850095075" lon="135.497250754379024">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>14.642539063999978</ogr:cnggradi>
+    <ogr:cnggradi>21.963808759000031</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-23.362153712791933" lon="133.80708597301691">
+<wpt lat="-30.838689076910462" lon="135.56684434502003">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>14.732370591999977</ogr:cnggradi>
+    <ogr:cnggradi>22.098556052000031</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-23.276702810365485" lon="133.779377530140266">
+<wpt lat="-30.896356067754393" lon="135.685212453791564">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>14.822202119999977</ogr:cnggradi>
+    <ogr:cnggradi>22.233303345000031</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-23.192566090026887" lon="133.751558925503645">
+<wpt lat="-31.001217316869933" lon="135.766990870857541">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>14.912033647999976</ogr:cnggradi>
+    <ogr:cnggradi>22.368050638000032</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-23.12441420902433" lon="133.693035870960955">
+<wpt lat="-31.086594787055098" lon="135.866411164113714">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>15.001865175999976</ogr:cnggradi>
+    <ogr:cnggradi>22.502797931000032</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-23.056193529065652" lon="133.634592389594474">
+<wpt lat="-31.133180979745475" lon="135.989717126211474">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>15.091696703999975</ogr:cnggradi>
+    <ogr:cnggradi>22.637545224000032</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-22.98807725328065" lon="133.576027317221417">
+<wpt lat="-31.168835664181518" lon="136.117961534783944">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>15.181528231999975</ogr:cnggradi>
+    <ogr:cnggradi>22.772292517000032</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-22.92042157353173" lon="133.51701999433655">
+<wpt lat="-31.186701173320941" lon="136.250451989291207">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>15.271359759999974</ogr:cnggradi>
+    <ogr:cnggradi>22.907039810000033</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-22.852268071601202" lon="133.4584981727875">
+<wpt lat="-31.234793943023028" lon="136.375642613560359">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>15.361191287999974</ogr:cnggradi>
+    <ogr:cnggradi>23.041787103000033</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-22.778981941193752" lon="133.408838864160856">
+<wpt lat="-31.249975271590348" lon="136.504338987584759">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>15.451022815999973</ogr:cnggradi>
+    <ogr:cnggradi>23.176534396000033</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-22.696383305894368" lon="133.373523669302841">
+<wpt lat="-31.268618875151109" lon="136.633989313935558">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>15.540854343999973</ogr:cnggradi>
+    <ogr:cnggradi>23.311281689000033</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-22.612264240544405" lon="133.344929604329224">
+<wpt lat="-31.248023092064606" lon="136.765982437991454">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>15.630685871999972</ogr:cnggradi>
+    <ogr:cnggradi>23.446028982000033</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-22.525171299888594" lon="133.330190345686532">
+<wpt lat="-31.330599883396964" lon="136.865376184160311">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>15.720517399999972</ogr:cnggradi>
+    <ogr:cnggradi>23.580776275000034</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-22.439808278322516" lon="133.355958944442534">
+<wpt lat="-31.402160870049748" lon="136.976021130448913">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>15.810348927999971</ogr:cnggradi>
+    <ogr:cnggradi>23.715523568000034</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-22.356413463082209" lon="133.389350467315239">
+<wpt lat="-31.479463305506115" lon="137.076702363190122">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>15.900180455999971</ogr:cnggradi>
+    <ogr:cnggradi>23.850270861000034</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-22.272886060836825" lon="133.422375566709349">
+<wpt lat="-31.589394007441733" lon="137.140703292004957">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>15.99001198399997</ogr:cnggradi>
+    <ogr:cnggradi>23.985018154000034</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-22.18337108998956" lon="133.429806927978802">
+<wpt lat="-31.693770209732321" lon="137.205397263720215">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>16.079843511999972</ogr:cnggradi>
+    <ogr:cnggradi>24.119765447000034</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-22.100526497410836" lon="133.422376602354603">
+<wpt lat="-31.786869961983246" lon="137.298570086443789">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>16.169675039999973</ogr:cnggradi>
+    <ogr:cnggradi>24.254512740000035</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-22.021095104298915" lon="133.461637439298215">
+<wpt lat="-31.90422030701415" lon="137.364794743757642">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>16.259506567999974</ogr:cnggradi>
+    <ogr:cnggradi>24.389260033000035</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-21.949285035974565" lon="133.511477111515347">
+<wpt lat="-32.018676846414479" lon="137.435127340777484">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>16.349338095999975</ogr:cnggradi>
+    <ogr:cnggradi>24.524007326000035</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-21.894246077187645" lon="133.582472899173496">
+<wpt lat="-32.145269563646195" lon="137.452873185184671">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>16.439169623999977</ogr:cnggradi>
+    <ogr:cnggradi>24.658754619000035</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-21.831801587057541" lon="133.646763113756407">
+<wpt lat="-32.242456381453223" lon="137.546205904082967">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>16.529001151999978</ogr:cnggradi>
+    <ogr:cnggradi>24.793501912000036</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-21.755357965319035" lon="133.690261457302597">
+<wpt lat="-32.360185557653928" lon="137.610029053895971">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>16.618832679999979</ogr:cnggradi>
+    <ogr:cnggradi>24.928249205000036</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-21.701319880096808" lon="133.754974486263848">
+<wpt lat="-32.448370720636305" lon="137.710790741530559">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>16.708664207999981</ogr:cnggradi>
+    <ogr:cnggradi>25.062996498000036</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-21.617356533578025" lon="133.747188018231526">
+<wpt lat="-32.520037281308838" lon="137.820780582126844">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>16.798495735999982</ogr:cnggradi>
+    <ogr:cnggradi>25.197743791000036</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-21.56714922939906" lon="133.819313416792369">
+<wpt lat="-32.618413976822701" lon="137.909641491858622">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>16.888327263999983</ogr:cnggradi>
+    <ogr:cnggradi>25.332491084000036</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-21.522330760359377" lon="133.892488900446352">
+<wpt lat="-32.745141234515629" lon="137.944155286830892">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>16.978158791999984</ogr:cnggradi>
+    <ogr:cnggradi>25.467238377000037</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-21.442104563062795" lon="133.931518645982436">
+<wpt lat="-32.871077133476888" lon="137.982221184627377">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>17.067990319999986</ogr:cnggradi>
+    <ogr:cnggradi>25.601985670000037</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-21.371051227989451" lon="133.983966116873177">
+<wpt lat="-32.996409466834422" lon="138.001620704281805">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>17.157821847999987</ogr:cnggradi>
+    <ogr:cnggradi>25.736732963000037</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-21.30671329232516" lon="134.046657949941959">
+<wpt lat="-33.110701229533326" lon="138.068355407294064">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>17.247653375999988</ogr:cnggradi>
+    <ogr:cnggradi>25.871480256000037</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-21.24757499578979" lon="134.114271533355634">
+<wpt lat="-33.225466459243705" lon="138.109218288836161">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>17.337484903999989</ogr:cnggradi>
+    <ogr:cnggradi>26.006227549000037</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-21.166580662634519" lon="134.14959899022125">
+<wpt lat="-33.330290794127812" lon="138.18254700700686">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>17.42731643199999</ogr:cnggradi>
+    <ogr:cnggradi>26.140974842000038</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-21.080203112969951" lon="134.174266164745745">
+<wpt lat="-33.458720036356333" lon="138.15997542063576">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>17.51714796</ogr:cnggradi>
+    <ogr:cnggradi>26.275722135000038</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-20.993748331603566" lon="134.198650098555191">
+<wpt lat="-33.572313813498532" lon="138.224657332784574">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>17.60697948799999</ogr:cnggradi>
+    <ogr:cnggradi>26.410469428000038</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-20.907301073851663" lon="134.223073307390393">
+<wpt lat="-33.703902775842408" lon="138.211770533525055">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>17.69681101599999</ogr:cnggradi>
+    <ogr:cnggradi>26.545216721000038</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-20.819951322220856" lon="134.239652855873715">
+<wpt lat="-33.8327696205045" lon="138.197241109241872">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>17.786642544</ogr:cnggradi>
+    <ogr:cnggradi>26.679964014000038</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-20.731340623251118" lon="134.241688324650227">
+<wpt lat="-33.955501467454553" lon="138.173231962552677">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>17.876474072</ogr:cnggradi>
+    <ogr:cnggradi>26.814711307000039</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-20.643668732381094" lon="134.222388148353843">
+<wpt lat="-34.069460157558993" lon="138.205712228789452">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>17.9663056</ogr:cnggradi>
+    <ogr:cnggradi>26.949458600000039</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-20.568775870669903" lon="134.257572303339117">
+<wpt lat="-34.18809886561246" lon="138.156119497679867">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>18.056137128</ogr:cnggradi>
+    <ogr:cnggradi>27.084205893000039</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-20.495100516661914" lon="134.251225302311667">
+<wpt lat="-34.287141587008257" lon="138.24222">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>18.145968656</ogr:cnggradi>
+    <ogr:cnggradi>27.218953186000039</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-20.406013476464032" lon="134.243614104571009">
+<wpt lat="-34.396413290957348" lon="138.315969746642168">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>18.235800184</ogr:cnggradi>
+    <ogr:cnggradi>27.35370047900004</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-20.316883710455251" lon="134.232435634952424">
+<wpt lat="-34.498195377538806" lon="138.400579892694907">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>18.325631712</ogr:cnggradi>
+    <ogr:cnggradi>27.48844777200004</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-20.227723515878306" lon="134.221576527148073">
+<wpt lat="-34.587452606144389" lon="138.501363776320431">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>18.41546324</ogr:cnggradi>
+    <ogr:cnggradi>27.62319506500004</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-20.137901679746349" lon="134.221022313956723">
+<wpt lat="-34.698249272341918" lon="138.57103488782829">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>18.505294768</ogr:cnggradi>
+    <ogr:cnggradi>27.75794235800004</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-20.050229078906526" lon="134.205069698843459">
+<wpt lat="-34.818046188745186" lon="138.561882690562726">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>18.595126296</ogr:cnggradi>
+    <ogr:cnggradi>27.89268965100004</ogr:cnggradi>
   </extensions>
 </wpt>
-<wpt lat="-19.963768546378184" lon="134.213718494173094">
+<wpt lat="-34.92885" lon="138.59661">
   <extensions>
     <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>18.684957824</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-19.874355408436315" lon="134.205058608849384">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>18.77478935200001</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-19.784931915050919" lon="134.19650628444154">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>18.864620880000011</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-19.697882180173401" lon="134.178459505169059">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>18.954452408000012</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-19.610897651618721" lon="134.194753793862731">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>19.044283936000014</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-19.533849260694694" lon="134.223383319778009">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>19.134115464000015</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-19.44519074930955" lon="134.208925673709871">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>19.223946992000016</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-19.356581980227826" lon="134.194164192932021">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>19.313778520000017</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-19.267492771758743" lon="134.183259769781756">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>19.403610048000019</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-19.179636160015463" lon="134.166269249526209">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>19.49344157600002</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-19.091066761157293" lon="134.175425713693954">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>19.583273104000021</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-19.011147860052844" lon="134.136549307517328">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>19.673104632000022</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-18.928777381328352" lon="134.118837120653268">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>19.762936160000024</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-18.860343995875475" lon="134.067923532341467">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>19.852767688000025</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-18.780214421532456" lon="134.028068506157666">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>19.942599216000026</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-18.704000808541945" lon="133.983392485963009">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>20.032430744000028</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-18.623645114634019" lon="133.943239428293083">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>20.122262272000029</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-18.544504807191437" lon="133.901448099929553">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>20.21209380000003</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-18.46453524511605" lon="133.866966451561723">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>20.301925328000031</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-18.381253293299775" lon="133.839386925367165">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>20.391756856000033</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-18.308824458989104" lon="133.789477161501139">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>20.481588384000034</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-18.232225124886281" lon="133.744163507562263">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>20.571419912000035</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-18.147894745972142" lon="133.724760945536076">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>20.661251440000036</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-18.058928325314092" lon="133.715370967478606">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>20.751082968000038</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-17.969631894756912" lon="133.713502839292858">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>20.840914496000039</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-17.88280915909187" lon="133.697846997808455">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>20.93074602400004</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-17.797768558763348" lon="133.669576641999754">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>21.020577552000042</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-17.71839355804498" lon="133.632087414494634">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>21.110409080000043</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-17.631518903171095" lon="133.60970622891827">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>21.200240608000044</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-17.561480593254352" lon="133.557577362910564">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>21.290072136000045</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-17.4916634215489" lon="133.504098963144401">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>21.379903664000047</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-17.414109357369739" lon="133.458766131471521">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>21.469735192000048</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-17.329431306892182" lon="133.441600065657013">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>21.559566720000049</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-17.24192117225968" lon="133.460350655068993">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>21.64939824800005</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-17.155042706816189" lon="133.462690710901683">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>21.739229776000052</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-17.066511204078765" lon="133.447463272156085">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>21.829061304000053</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-16.97797407009514" lon="133.432269473232822">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>21.918892832000054</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-16.889002518537616" lon="133.424509746257058">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>22.008724360000055</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-16.799319116378193" lon="133.429664217999488">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>22.098555888000057</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-16.710701313747322" lon="133.418226694649093">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>22.188387416000058</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-16.63420202959195" lon="133.375656693198096">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>22.278218944000059</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-16.549647810890345" lon="133.357849415701679">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>22.368050472000061</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-16.466297110079655" lon="133.389050845475026">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>22.457882</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-16.378340721603202" lon="133.38040577447191">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>22.547713528000063</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-16.28918252518903" lon="133.388134893286832">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>22.637545056000064</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-16.212040695627856" lon="133.424948318228985">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>22.727376584000066</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-16.122413308534917" lon="133.428190074144766">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>22.817208112000067</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-16.037726813510023" lon="133.415707524297972">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>22.907039640000068</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-15.956295994932447" lon="133.434594158322369">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>22.996871168000069</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-15.872985530019577" lon="133.409041490875893">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>23.086702696000071</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-15.789652220596732" lon="133.37830927978203">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>23.176534224000072</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-15.715477238495238" lon="133.339736025693043">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>23.266365752000073</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-15.65311960495937" lon="133.278717925095179">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>23.356197280000075</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-15.584869669576721" lon="133.221564451137226">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>23.446028808000076</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-15.498981828074687" lon="133.197241138495514">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>23.535860336000077</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-15.411309574663708" lon="133.177925762603309">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>23.625691864000078</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-15.325954756303949" lon="133.14992148547131">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>23.71552339200008</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-15.243631502015337" lon="133.115633221586705">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>23.805354920000081</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-15.158070908141868" lon="133.088515809763038">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>23.895186448000082</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-15.070949038203228" lon="133.072344988175843">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>23.985017976000083</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.98412468783242" lon="133.07985147430901">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>24.074849504000085</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.905129766532131" lon="133.047596902761853">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>24.164681032000086</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.847386877945398" lon="132.979805590670395">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>24.254512560000087</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.790124718551175" lon="132.913683312890157">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>24.344344088000089</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.746478009982903" lon="132.838545477110301">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>24.43417561600009</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.704415407437104" lon="132.764014724328547">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>24.524007144000091</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.677790014963389" lon="132.678222487272535">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>24.613838672000092</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.630141301002096" lon="132.608634512666981">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>24.703670200000094</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.58617167795226" lon="132.530663813402981">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>24.793501728000095</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.552127213371381" lon="132.448620375414436">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>24.883333256000096</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.483931942168553" lon="132.397021048426637">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>24.973164784000097</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.478911906908479" lon="132.312325780111593">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>25.062996312000099</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.440149768474594" lon="132.234398992736232">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>25.1528278400001</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.382773991653689" lon="132.17495746458485">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>25.242659368000101</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.324496800422585" lon="132.111523438846206">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>25.332490896000103</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.253816888890467" lon="132.060862627190829">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>25.422322424000104</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.177005320712686" lon="132.025161909666565">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>25.512153952000105</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.097865473393577" lon="131.988739117436353">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>25.601985480000106</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-14.027643240876058" lon="131.939887950954073">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>25.691817008000108</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.949974668378763" lon="131.896018458868809">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>25.781648536000109</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.879457027054581" lon="131.844014519377822">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>25.87148006400011</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.809528774076322" lon="131.817515745050287">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>25.961311592000111</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.753591342274373" lon="131.749902975036946">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>26.051143120000113</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.689171980864874" lon="131.693275877554726">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>26.140974648000114</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.631610924000977" lon="131.631821037807526">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>26.230806176000115</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.628458513177451" lon="131.54576246181054">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>26.320637704000116</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.569231613107773" lon="131.486654685248652">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>26.410469232000118</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.543971373010189" lon="131.42102075689823">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>26.500300760000119</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.478445876859913" lon="131.360929262327517">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>26.59013228800012</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.419346360328488" lon="131.301516690868709">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>26.679963816000122</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.371598801720594" lon="131.226617537274194">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>26.769795344000123</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.293838954260359" lon="131.195148646018538">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>26.859626872000124</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.24424736973122" lon="131.122014891574253">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>26.949458400000125</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.169384379228374" lon="131.102463576342956">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>27.039289928000127</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-13.080989660816218" lon="131.106503773997872">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>27.129121456000128</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-12.996685594241971" lon="131.118034572925552">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>27.218952984000129</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-12.912103819072991" lon="131.139695967142501">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>27.30878451200013</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-12.824914845295478" lon="131.132285059795947">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>27.398616040000132</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-12.747267020620752" lon="131.095076760889157">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>27.488447568000133</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-12.659577659074067" lon="131.0780006298437">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>27.578279096000134</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-12.570313402253174" lon="131.073427414434576">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>27.668110624000136</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-12.504616227823833" lon="131.017779386678228">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>27.757942152000137</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-12.446619106990244" lon="130.954885784020149">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>27.847773680000138</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-12.425402330379631" lon="130.868995976718395">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>27.937605208000139</ogr:cnggradi>
-  </extensions>
-</wpt>
-<wpt lat="-12.459402" lon="130.834324">
-  <extensions>
-    <ogr:fid>0</ogr:fid>
-    <ogr:cnggradi>27.993537214702904</ogr:cnggradi>
+    <ogr:cnggradi>28.027193083300457</ogr:cnggradi>
   </extensions>
 </wpt>
 </gpx>
