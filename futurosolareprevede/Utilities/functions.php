@@ -149,7 +149,8 @@ function loadOSRMdata(POINT|COORD $first, POINT|COORD $second,POINT|COORD ...$mo
 function loadOpenMeteoData(COORD $c, $timestamp) : array{
   //1: load data for hour before and after $timestamp
   //2: weigh data depending on current minute 
-  //N.B: If current time is 15:15 -> weigh output to be influenced by 3/4 by the 15:00 reading and by 1/4 by the 16:00 reading
+  //   Weigh output so that the two hourly readings around the exact time are taken into consideration.
+  //   The output should be determined by 3/4 by the 15:00 reading and by 1/4 by the 16:00 reading.
   //4: update database with latest info
   //3: return output in standards associative array to be passed down to js.
   $out = [];
