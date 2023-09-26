@@ -1,4 +1,5 @@
 <?php 
+
 function getDbConnection() : mysqli{
   static $conn = null;
   if($conn === null){
@@ -146,15 +147,50 @@ function loadOSRMdata(POINT|COORD $first, POINT|COORD $second,POINT|COORD ...$mo
 }
 
 //TODO: load data from https://open-meteo.com/en/docs#start_date=2023-09-25&end_date=2023-09-25
-function loadOpenMeteoData(COORD $c, $timestamp) : array{
-  //1: load data for hour before and after $timestamp
+function loadOpenMeteoData(POINT $c, $timestamp) : array{
+
+  $conn = getDbConnection();
+  
+  //1: load data for hour before and after $timestamp from database
   //2: weigh data depending on current minute 
   //   Weigh output so that the two hourly readings around the exact time are taken into consideration.
   //   The output should be determined by 3/4 by the 15:00 reading and by 1/4 by the 16:00 reading.
   //4: update database with latest info
   //3: return output in standards associative array to be passed down to js.
-  $out = [];
-  return $out;
+  return array();
+}
+
+function updateOpenMeteoData(){ //WARNING: currently this takes too long
+  
+  $points = loadPoints();
+  $conn = getDbConnection();
+  if(! isConnected()) return false;
+  $conn->query("DELETE FROM forecast");
+
+  foreach($points as $point){
+    $reqURL = "https://api.open-meteo.com/v1/forecast?latitude=%f&longitude=%f&hourly=temperature_2m,direct_radiation&timeformat=unixtime&forecast_days=1";
+    $reqURL = sprintf($reqURL,
+      $point->lat,
+      $point->lon
+    );
+    
+    $data = json_decode(file_get_contents($reqURL),true)["hourly"];
+
+    for($i = 0; $i < sizeof($data["time"]); $i++){
+      $query = "INSERT INTO forecast(point_id,referenced_time,direct_radiation,temperature_2m) VALUES (%d,%d,%f,%f)";
+      $query = sprintf($query,
+        $point->point_ID,
+        $data["time"][$i],
+        $data["direct_radiation"][$i],
+        $data["temperature_2m"][$i]
+      );
+      $conn->query($query);
+    }
+  }
+
+  
+  
+  return true;
 }
 
 ?>
