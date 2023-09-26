@@ -59,31 +59,6 @@ class POINT extends COORD{
 
 }
 
-function loadForecast(COORD $startLocation, int $N){
-
-  $points = loadPoints();
-
-  $closest = array("coords" => new COORD(0,0), "distance" => INF, "id" => NULL);
-  $second_closest = array("coords" => new COORD(0,0), "distance" => INF, "id" => NULL);
-
-  foreach($points as $id => $point){
-    $cur_distance = $startLocation->getDistanceFrom($point["coord"]);
-    if($cur_distance < $closest["distance"]){
-      $second_closest = $closest;
-      $closest = array("coords" => $startLocation, "distance" => $cur_distance,"id" => $id);
-    } else if($cur_distance < $startLocation["distance"]) {
-      $second_closest = array("coords" => $startLocation, "distance" => $cur_distance,"id" => $id);
-    }
-  }
-  
-  $first_point = ($closest["id"] > $second_closest["id"]) ? $closest : $second_closest;
-  $waypoints = array_slice($points,$first_point["id"],30,false);
-  
-  $data = [];
-
-  return $data;
-}
-
 /**
  * @return POINT[]
  */
