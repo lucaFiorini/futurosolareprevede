@@ -1,7 +1,7 @@
 <?php
 require("Utilities/functions.php");
-$c = new COORD(0,0);
 updateOpenMeteoData();
+
 exit();
 if($_POST == NULL) 
   die("Cannot GET get_forecast.php");

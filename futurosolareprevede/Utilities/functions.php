@@ -1,4 +1,10 @@
 <?php 
+require_once(__DIR__.'/vendor/autoload.php');
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\RequestException;
+use GuzzleHttp\Pool;
+use GuzzleHttp\Psr7\Request;
+use GuzzleHttp\Psr7\Response;
 
 function getDbConnection() : mysqli{
   static $conn = null;
@@ -135,37 +141,70 @@ function loadOpenMeteoData(POINT $c, $timestamp) : array{
   return array();
 }
 
-function updateOpenMeteoData(){ //WARNING: currently this takes too long
+function updateOpenMeteoData(){
   
-  $points = loadPoints();
-  $conn = getDbConnection();
-  if(! isConnected()) return false;
-  $conn->query("DELETE FROM forecast");
+  if(!isConnected()) return false;
 
-  foreach($points as $point){
+  $conn = getDbConnection();
+  $client = new GuzzleHttp\Client();
+
+  $points = loadPoints();
+
+  $conn->query("DELETE FROM forecast");
+  $promises = [];
+  foreach($points as $point){;
     $reqURL = "https://api.open-meteo.com/v1/forecast?latitude=%f&longitude=%f&hourly=temperature_2m,direct_radiation&timeformat=unixtime&forecast_days=1";
     $reqURL = sprintf($reqURL,
       $point->lat,
       $point->lon
     );
-    
-    $data = json_decode(file_get_contents($reqURL),true)["hourly"];
-
-    for($i = 0; $i < sizeof($data["time"]); $i++){
-      $query = "INSERT INTO forecast(point_id,referenced_time,direct_radiation,temperature_2m) VALUES (%d,%d,%f,%f)";
-      $query = sprintf($query,
-        $point->point_ID,
-        $data["time"][$i],
-        $data["direct_radiation"][$i],
-        $data["temperature_2m"][$i]
-      );
-      $conn->query($query);
-    }
+    //$reqURL = "http://localhost/futurosolareprevede/futurosolareprevede";
+    $promises[] = new Request('GET',$reqURL);
   }
 
-  
-  
+  $pool = new POOL($client,$promises,[
+    'concurrency' => 50,
+    'fulfilled' => function (Response $response, $index) use ($conn) {
+      $data = json_decode((string)$response->getBody(),true);
+      for($i = 0; $i < sizeof($data["time"]); $i++){
+
+        $query = "INSERT INTO forecast(point_id,referenced_time,direct_radiation,temperature_2m) VALUES (%d,%d,%f,%f)";
+        $query = sprintf($query,
+          $index,
+          $data["time"][$i],
+          $data["direct_radiation"][$i],
+          $data["temperature_2m"][$i]
+        );
+        $conn->query($query);
+
+      }
+    },
+    'rejected' => function (RequestException $reason, $index) {
+      echo "WTF m8";
+    },
+  ]);
+
+  $promise = $pool->promise();
+  $promise->wait();
   return true;
 }
 
+/*
+    $promise->then(function(ResponseInterface $res) use ($point,$conn) {
+      echo"wow";
+      $data = json_decode($res->getBody())["hourly"];
+      for($i = 0; $i < sizeof($data["time"]); $i++){
+
+        $query = "INSERT INTO forecast(point_id,referenced_time,direct_radiation,temperature_2m) VALUES (%d,%d,%f,%f)";
+        $query = sprintf($query,
+          $point->point_ID,
+          $data["time"][$i],
+          $data["direct_radiation"][$i],
+          $data["temperature_2m"][$i]
+        );
+        $conn->query($query);
+
+      }
+    });
+     */
 ?>
